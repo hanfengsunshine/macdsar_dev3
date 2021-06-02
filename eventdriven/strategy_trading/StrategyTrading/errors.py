@@ -1,0 +1,4 @@
+
+
+class LocalPositionInvalid(Exception):
+    pass

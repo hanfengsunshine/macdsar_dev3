@@ -1,0 +1,24 @@
+
+{
+  "logfile": "Logs/log.txt",
+  "tradingGateway": {
+    "HUOBI_CONTRACT": {
+      "exchange": "HUOBI_CONTRACT",
+      "server": "13.231.238.109",
+      "port": 6200
+    }
+  },
+  "marketData": {
+    "HUOBI_CONTRACT": {
+      "exchange": "HUOBI_CONTRACT",
+      "server": "13.231.238.109",
+      "port": 7200
+    }
+  },
+  "strategy": {
+    "exchange": "HUOBI_CONTRACT",
+    "global_symbol": "FUTU-BTC/USD-20191227",
+    "enable_trading": false,
+    "initial_position": "0"
+  }
+}

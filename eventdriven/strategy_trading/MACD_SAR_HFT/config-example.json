@@ -1,0 +1,18 @@
+{
+    "instrument": {
+        "database": "postgresql://username:password@hostname/database"
+    },
+    "datafeed": {
+        "server": "tcp://127.0.0.1:9998"
+    },
+    "trade": {
+        "hbtest1am1": [
+            "HUOBI_SPOT",
+            "HUOBI_SWAP"
+        ],
+        "binancetest1am1": [
+            "BINANCE_SPOT",
+            "BINANCE_SWAP"
+        ]
+    }
+}

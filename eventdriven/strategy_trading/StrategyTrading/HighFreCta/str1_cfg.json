@@ -1,0 +1,24 @@
+
+{
+  "logfile": "Logs/trxQ.txt",
+  "tradingGateway": {
+    "HUOBI_CONTRACT": {
+      "exchange": "HUOBI_CONTRACT",
+      "server": "127.0.0.1",
+      "port": 6320
+    }
+  },
+  "marketData": {
+    "HUOBI_CONTRACT": {
+      "exchange": "HUOBI_CONTRACT",
+      "server": "127.0.0.1",
+      "port": 7300
+    }
+  },
+  "strategy": {
+    "exchange": "HUOBI_CONTRACT",
+    "global_symbol": "FUTU-TRX/USD-20200327",
+    "enable_trading": false,
+    "initial_position": "0"
+  }
+}

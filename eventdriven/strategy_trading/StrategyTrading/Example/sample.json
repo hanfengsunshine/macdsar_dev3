@@ -1,0 +1,28 @@
+
+{
+  "logfile": "Logs/log.txt",
+  "tradingGateway": {
+    "HUOBI_SPOT": {
+      "exchange": "HUOBI_SPOT",
+      "server": "13.231.238.109",
+      "port": 6000
+    }
+  },
+  "marketData": {
+    "HUOBI_SPOT": {
+      "exchange": "HUOBI_SPOT",
+      "server": "13.231.238.109",
+      "port": 7000
+    }
+  },
+  "strategy": {
+    "exchange": "HUOBI_SPOT",
+    "global_symbol": "SPOT-BTC/USDT",
+    "balance": {
+      "BTC": 1,
+      "USDT": 1000
+    },
+    "enable_trading": false,
+    "initial_position": "0"
+  }
+}
