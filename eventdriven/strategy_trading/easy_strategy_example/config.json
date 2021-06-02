@@ -1,0 +1,61 @@
+{
+    "instrument": {
+        "database": "postgresql://trader:huobi20190909@data.cdoc35whf3tj.ap-northeast-1.rds.amazonaws.com/trading"
+    },
+    "datafeed": {
+        "recording": false,
+        "direct": true,
+        "server": "tcp://127.0.0.1:9998",
+        "BINANCE_SPOT": {
+            "url": "wss://stream.binance.com/stream"
+        },
+        "BINANCE_SWAP_USDT": {
+            "url": "wss://fstream.binance.com/stream"
+        },
+        "BINANCE_SWAP": {
+            "url": "wss://dstream.binance.com/stream"
+        },
+        "BINANCE_CONTRACT": {
+            "url": "wss://dstream.binance.com/stream"
+        },
+        "BINANCE_INDEX": {
+            "url": "wss://dstream.binance.com/stream"
+        },
+        "HUOBI_SPOT": {
+            "url": "wss://api-aws.huobi.pro/ws"
+        },
+        "HUOBI_SWAP": {
+            "url": "wss://api.hbdm.com/swap-ws"
+        },
+        "HUOBI_SWAP_USDT": {
+            "url": "wss://api.hbdm.com/linear-swap-ws"
+        },
+        "HUOBI_CONTRACT": {
+            "url": "wss://api.hbdm.com/ws"
+        },
+        "HUOBI_INDEX": {
+            "url": "wss://api.hbdm.com/ws_index"
+        },
+        "OKEX_SPOT": {
+            "url": "wss://ws.okex.com:8443/ws/v5/public"
+        },
+        "OKEX_SWAP": {
+            "url": "wss://ws.okex.com:8443/ws/v5/public"
+        },
+        "OKEX_CONTRACT": {
+            "url": "wss://ws.okex.com:8443/ws/v5/public"
+        },
+        "FTX_SWAP_USD": {
+            "url": "wss://ftx.com/ws"
+        },
+        "FTX_CONTRACT": {
+            "url": "wss://ftx.com/ws"
+        },
+        "COINBASEPRO_SPOT": {
+            "url": "wss://ws-feed.pro.coinbase.com"
+        }
+    },
+    "trade": {
+
+    }
+}
